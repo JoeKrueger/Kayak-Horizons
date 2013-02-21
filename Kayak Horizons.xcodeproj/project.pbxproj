@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7178AE16D645F00063FF20 /* FAQView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7178AD16D645F00063FF20 /* FAQView.xib */; };
 		F3B9956616D20FF70058FDA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9956516D20FF70058FDA6 /* UIKit.framework */; };
 		F3B9956816D20FF70058FDA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9956716D20FF70058FDA6 /* Foundation.framework */; };
 		F3B9956A16D20FF70058FDA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9956916D20FF70058FDA6 /* CoreGraphics.framework */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7178AD16D645F00063FF20 /* FAQView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAQView.xib; sourceTree = "<group>"; };
 		F3B9956116D20FF70058FDA6 /* Kayak Horizons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kayak Horizons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B9956516D20FF70058FDA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3B9956716D20FF70058FDA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -127,6 +129,7 @@
 		F3B995CA16D214880058FDA6 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				CE7178AD16D645F00063FF20 /* FAQView.xib */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				F3B995C416D213BB0058FDA6 /* Default@2x.png in Resources */,
 				F3B995C616D213C00058FDA6 /* Default-568h@2x.png in Resources */,
 				F3B995C716D213C90058FDA6 /* KH_icon_small.png in Resources */,
+				CE7178AE16D645F00063FF20 /* FAQView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +324,7 @@
 				F3B9958716D20FF70058FDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
